@@ -26,7 +26,7 @@ const MOBILENET_MODEL_PATH =
     'model_tfjs';
 
 const IMAGE_SIZE = 224;
-const TOPK_PREDICTIONS = 1;
+const TOPK_PREDICTIONS = 3;
 
 let mobilenet;
 const mobilenetDemo = async () => {
