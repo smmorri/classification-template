@@ -34,6 +34,7 @@ const mobilenetDemo = async () => {
 
   // mobilenet = await tf.loadGraphModel(MOBILENET_MODEL_PATH, {fromTFHub: true});
   mobilenet = await tf.loadLayersModel('model_tfjs/model.json');
+  status("banana");
 
   // Warmup the model. This isn't necessary, but makes the first prediction
   // faster. Call `dispose` to release the WebGL memory allocated for the return
